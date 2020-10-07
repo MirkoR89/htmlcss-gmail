@@ -34,6 +34,21 @@ body {
 .mail_box {
   background-color: lightgrey;
   border: 1px solid black;
+  padding: 2px;
+}
+
+.mail_box_ex {
+background-color: white;
+border: 1px solid black;
+padding: 2px;
+}
+
+.grey_text {
+  color: grey;
+}
+
+strong {
+  color: black;
 }
 
 footer {
@@ -43,4 +58,5 @@ footer {
 
 .text_footer {
   font-style: italic;
+  font-size: 12px;
 }
