@@ -5,21 +5,42 @@ body {
   margin-top: 20px;
 }
 
-.gmail_logo_container {
-  height: 100px;
-  width: auto;
-  display: inline-block;
-  color: white;
+.logo_img {
   line-height: 100px;
+  vertical-align: middle;
+}
+
+#border_radius {
+  border: 0.5px;
+  border-radius: 3px;
+}
+
+.gmail_container {
+  color: white;
+  display: inline-block;
 }
 
 .white_text {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #yellow_circle {
-  border-radius: 100%;
+  border-radius: 25px;
   background-color: #FBC056;
   padding: 10px;
+}
+
+.mail_box {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+.text_footer {
+  font-style: italic;
 }

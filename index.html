@@ -9,8 +9,8 @@
 
     <!-- Heder -->
     <header>
-      <img src="asset\img\gmail_logo.png" alt="Logo Gmail busta bianca con bordsi rossi">
-      <div class="gmail_logo_container">
+      <img class=logo_img src="asset\img\gmail_logo.png" alt="Logo Gmail busta bianca con bordsi rossi">
+      <div class="gmail_container">
         <h1>Gmail</h1>
       </div>
       <hr>
@@ -24,33 +24,33 @@
         <!-- Form -->
         <form class="" action="index.html" method="post">
           <input type="search" name="search_bar" placeholder="Search">
-          <input type="submit" name="search_bar" value="VAI">
+          <input type="submit" name="search_bar" value="VAI" id="border_radius">
         </form>
         <!-- /Form -->
 
         <div class="white_text">
-          <h2>You have <span id="yellow_circle">30</span>unread</h2>
+          <h2>You have <span id="yellow_circle">30</span> unread</h2>
           <hr>
         </div>
       </section> <!--Search bar-->
 
       <section> <!--Emails list-->
-        <div class="">
+        <div class="mail_box">
           <input type="checkbox" name="email" >
           <span>&starf; <strong>Oggetto della email</strong> - testo della email...</span>
         </div>
 
-        <div class="">
+        <div class="mail_box">
           <input type="checkbox" name="email" >
           <span>&starf; <strong>Oggetto della email</strong> - testo della email...</span>
         </div>
 
-        <div class="">
+        <div class="mail_box">
           <input type="checkbox" name="email" >
           <span>&starf; <strong>Oggetto della email</strong> - testo della email...</span>
         </div>
 
-        <div class="">
+        <div class="mail_box">
           <input type="checkbox" name="email" >
           <span>&starf; <strong>Oggetto della email</strong> - testo della email...</span>
         </div>
@@ -61,7 +61,8 @@
     <!-- Footer -->
     <footer>
       <hr>
-      <span>GMail powered by Mirko</span>
+      <h3>GMail <span class="text_footer">powered by Mirko</span></h3>
+
     </footer>
     <!-- /Footer -->
   </body>
