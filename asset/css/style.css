@@ -4,3 +4,22 @@ body {
   margin-right: 110px;
   margin-top: 20px;
 }
+
+.gmail_logo_container {
+  height: 100px;
+  width: auto;
+  display: inline-block;
+  color: white;
+  line-height: 100px;
+}
+
+.white_text {
+  color: white;
+  font-size: 20px;
+}
+
+#yellow_circle {
+  border-radius: 100%;
+  background-color: #FBC056;
+  padding: 10px;
+}
