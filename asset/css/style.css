@@ -51,6 +51,19 @@ strong {
   color: black;
 }
 
+.mail_box_ex {
+background-color: white;
+border: 1px solid black;
+}
+
+.grey_text {
+  color: grey;
+}
+
+strong {
+  color: black;
+}
+
 footer {
   color: white;
   text-align: center;
